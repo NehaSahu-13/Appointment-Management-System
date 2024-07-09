@@ -1,0 +1,319 @@
+.navbaritems{
+    margin-left:40rem;
+}
+.nav{
+   background-color:#24c2f2;
+}
+.nav-clr{
+    color:white;
+}
+.nav-clr:hover{
+    background-color: #0000001a;
+    color:white;
+}
+.active{
+    background-color: white;
+    color:#24c2f2;
+}
+.toggler{
+    z-index:10;
+}
+.name{
+    color:white;
+    cursor:none; 
+}
+.name:hover{
+    color:white;
+}
+.homedoctors-img{
+    width:100%;
+    height:93vh;
+}
+.home-container{
+    position:relative;
+}
+.about-sec{
+   position:absolute;
+   color:#e9ecef;
+   width:40%;
+   top:10rem;
+   left:4rem;
+}
+.about{
+    font-size: 25px;
+}
+.contact-sec{
+    border-bottom: 3px solid #24c2f2;
+}
+.contact-container{
+  margin:5rem 5rem 0 5rem;
+}
+.contact-img{
+    width:90%;
+    height:90%;
+}
+.footer{
+    background-color:#24c2f2;
+    color:white;
+    padding-bottom: 0.5rem;
+}
+.footer-content{
+    margin:0 10%;
+}
+.base{
+    height: 30vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-bottom: 10px solid #24c2f2;
+   background-image:url(D:/AppoinmentManagementSystem/React_Aptmgmsys/appointmentmanagementsystem/public/images/doc-img.jpg);
+}
+.content-container{
+   margin:0 5%;
+}
+.login-circle{
+	position: absolute;
+    height: 60px;
+    width: 120px;
+    color:#24c2f2;
+    border: 4px solid #24c2f2;
+    background: white;
+    border-radius: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+    top: -8%;
+    transform: translateX(-50%);
+}
+.baseimg{
+    width:90%;
+    height:100%;
+}
+.input-bar:focus{
+    box-shadow:0 0 0;
+   border:0.5px solid #00000075; 
+}
+.sidebar{ 
+    width:18%;
+    background:white;
+    height:100%;
+    position:fixed;
+    padding-top:45px;
+    z-index:1;  
+    border-right:1px solid #e2e2e2;
+}
+
+.sidebar a{
+   
+   display:block;   
+   width:100%;
+   padding:10px 25px;
+   text-decoration:none;
+   color:black;
+}
+
+.sidebar a:hover{
+   background:#24c2f2;
+   color:white;
+}
+
+.sidebar .divider{
+   height:0.5px;
+   width:100%;
+   background:#e2e2e2;
+   margin-top:10px;
+}
+.content{
+   margin-left:18%;
+}
+
+.sidebar .crossBtn{
+   position:absolute;
+   top:5px;
+   right:35px;
+   font-weight:500;
+   font-size:22px;
+   cursor:pointer;
+}
+.togglebar{
+    margin-top:55px;
+    margin-left:18%; 
+    cursor:pointer;
+}
+.sidebar-img{
+  width:20px;
+  height:20px;
+}
+.head{
+    color:#24c2f2
+}
+.user-active{
+    background-color: #24c2f2;
+    color:white!important;
+}
+.img{
+    width:30px;
+    height:30px;
+}
+.dep-img{
+    width:80px;
+    height:80px;
+} 
+.action{
+    padding-bottom: 4rem !important;
+}
+.container-adddoctor{
+  margin:0 20%;
+}
+.default-pg{
+    margin:8rem 28rem;
+}
+.doc-img{
+   width:10rem;
+   height:10rem;
+   border-radius: 50%;
+}
+.doc-profile{
+    margin-left:20rem;
+    margin-right: 10rem;
+}
+.changepass-container{
+    margin:0 20rem;
+}
+.search-box{
+   margin:0 20rem;
+}
+.home-img{
+    width:250px;
+    height:200px;
+    
+}
+.home-card{
+    transition:background-color 2s ease 1s;
+    text-decoration: none;
+    color:black;
+    max-width: 285px;
+    min-width:285px;
+}
+.home-card:hover{
+	transform:scale(0.95);
+    color:black;
+}
+.container-department{
+   margin:5rem 2rem;
+}
+.detail-container{
+    margin:5rem 7rem;
+}
+.timing-container{
+    min-width:285px;    
+}
+.table-card{
+    overflow: auto !important;
+}
+
+
+
+@Media only screen and (Max-width:1200px){ */
+   
+    .about{
+        font-size: 16px;
+     }
+     .togglebar{
+        margin-top:75px;
+     }
+     .default-pg{
+        margin:8rem 15rem;
+    }
+    .changepass-container{
+        margin:0 10rem;
+    }
+    .navbaritems{
+        margin-left:15rem;
+    }
+    .search-box{
+        margin:0 10rem;
+     }
+    
+}
+@Media only screen and (Max-width:1000px){
+    .togglebar{
+        margin-top:55px;
+     }
+     .default-pg{
+        margin:8rem 10rem;
+    }
+    .doc-profile{
+        margin:0 0;
+    
+    }
+    .changepass-container{
+        margin:0 2rem;
+    }
+}
+@Media only screen and (Max-width:750px){
+    .timing-btn{
+       margin-top: 10px;
+   }
+   .search-box{
+    margin:0 5rem;
+   }
+   
+   
+}
+@Media only screen and (Max-width:650px){
+    .navbaritems{
+        margin-left: 0rem;
+    }
+    .dis-hide{
+        display:none;
+    }
+    .about-sec{
+        width:80%;
+    }
+    .contact-container{
+        margin-left:0;
+    }
+    .contact-img{
+        width:300px;
+        height:300px;
+    }
+    .sidebar{
+        display: none;
+        width:80% !important;
+        background:white;
+        height:100vh;
+        position:fixed;
+        padding-top:40px;
+    }
+    .content{
+        margin-left:0;
+    }
+    .togglebar{
+        margin-left: 0;
+    }
+    .default-pg{
+        margin:8rem 5rem;
+    }
+    .timing-table{
+        margin-left:0 !important;
+        margin-right: 0 !important;
+    }
+   
+    
+} 
+
+
+@Media only screen and (Max-width:400px){
+   .btn-back{
+    margin-bottom: 0.8rem;
+   }
+   .search-box{
+    margin:0 2rem;
+   }
+   .detail-container{
+    margin:5rem 2rem;
+}
+}
